@@ -1,0 +1,655 @@
+@font-face {
+    font-family: 'lodur-minimalistic-icons';
+    src:  url('fonts/lodur-minimalistic-icons.eot?8trkj1');
+    src:  url('fonts/lodur-minimalistic-icons.eot?8trkj1#iefix') format('embedded-opentype'),
+      url('fonts/lodur-minimalistic-icons.ttf?8trkj1') format('truetype'),
+      url('fonts/lodur-minimalistic-icons.woff?8trkj1') format('woff'),
+      url('fonts/lodur-minimalistic-icons.svg?8trkj1#lodur-minimalistic-icons') format('svg');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  [class^="lodur-icon-"], [class*=" lodur-icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'lodur-minimalistic-icons' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+  
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  .lodur-icon-athlete-1:before {
+    content: "\61";
+  }
+  .lodur-icon-chevron-up:before {
+    content: "\62";
+  }
+  .lodur-icon-dollar:before {
+    content: "\63";
+  }
+  .lodur-icon-list-ordered:before {
+    content: "\64";
+  }
+  .lodur-icon-bin:before {
+    content: "\65";
+  }
+  .lodur-icon-chat:before {
+    content: "\66";
+  }
+  .lodur-icon-more:before {
+    content: "\67";
+  }
+  .lodur-icon-minus2:before {
+    content: "\68";
+  }
+  .lodur-icon-alert:before {
+    content: "\69";
+  }
+  .lodur-icon-arrow-small-down:before {
+    content: "\6a";
+  }
+  .lodur-icon-close2:before {
+    content: "\6b";
+  }
+  .lodur-icon-list:before {
+    content: "\6c";
+  }
+  .lodur-icon-three-bars:before {
+    content: "\6d";
+  }
+  .lodur-icon-mail-read:before {
+    content: "\6e";
+  }
+  .lodur-icon-arrow-small-up:before {
+    content: "\6f";
+  }
+  .lodur-icon-arrow-small-left:before {
+    content: "\70";
+  }
+  .lodur-icon-arrow-small-right:before {
+    content: "\71";
+  }
+  .lodur-icon-mail:before {
+    content: "\72";
+  }
+  .lodur-icon-less:before {
+    content: "\73";
+  }
+  .lodur-icon-note:before {
+    content: "\74";
+  }
+  .lodur-icon-heart:before {
+    content: "\75";
+  }
+  .lodur-icon-arrow-up:before {
+    content: "\76";
+  }
+  .lodur-icon-arrow-right:before {
+    content: "\77";
+  }
+  .lodur-icon-flag:before {
+    content: "\78";
+  }
+  .lodur-icon-user-contact:before {
+    content: "\79";
+  }
+  .lodur-icon-settings:before {
+    content: "\7a";
+  }
+  .lodur-icon-filter:before {
+    content: "\41";
+  }
+  .lodur-icon-arrow-left:before {
+    content: "\42";
+  }
+  .lodur-icon-arrow-down:before {
+    content: "\43";
+  }
+  .lodur-icon-edit:before {
+    content: "\44";
+  }
+  .lodur-icon-eye:before {
+    content: "\45";
+  }
+  .lodur-icon-add:before {
+    content: "\46";
+  }
+  .lodur-icon-star:before {
+    content: "\47";
+  }
+  .lodur-icon-check:before {
+    content: "\48";
+  }
+  .lodur-icon-chevron-down:before {
+    content: "\49";
+  }
+  .lodur-icon-zoom-in:before {
+    content: "\4a";
+  }
+  .lodur-icon-minus:before {
+    content: "\4b";
+  }
+  .lodur-icon-search:before {
+    content: "\4c";
+  }
+  .lodur-icon-zoom-out:before {
+    content: "\4d";
+  }
+  .lodur-icon-chevron-left:before {
+    content: "\4e";
+  }
+  .lodur-icon-chevron-right:before {
+    content: "\4f";
+  }
+  .lodur-icon-alarm:before {
+    content: "\50";
+  }
+  .lodur-icon-calendar:before {
+    content: "\51";
+  }
+  .lodur-icon-user:before {
+    content: "\52";
+  }
+  .lodur-icon-print:before {
+    content: "\53";
+  }
+  .lodur-icon-edit-contact:before {
+    content: "\54";
+  }
+  .lodur-icon-import:before {
+    content: "\55";
+  }
+  .lodur-icon-comment:before {
+    content: "\56";
+  }
+  .lodur-icon-archive:before {
+    content: "\57";
+  }
+  .lodur-icon-unarchive:before {
+    content: "\58";
+  }
+  .lodur-icon-center-on:before {
+    content: "\59";
+  }
+  .lodur-icon-zoom-to:before {
+    content: "\5a";
+  }
+  .lodur-icon-excel:before {
+    content: "\30";
+  }
+  .lodur-icon-user-info:before {
+    content: "\31";
+  }
+  .lodur-icon-data-grid:before {
+    content: "\33";
+  }
+  .lodur-icon-device-mobile:before {
+    content: "\32";
+  }
+  .lodur-icon-close-round:before {
+    content: "\34";
+  }
+  .lodur-icon-check-round:before {
+    content: "\35";
+  }
+  .lodur-icon-bin-open:before {
+    content: "\36";
+  }
+  .lodur-icon-move-to:before {
+    content: "\37";
+  }
+  .lodur-icon-d-selected:before {
+    content: "\38";
+  }
+  .lodur-icon-d-deselected:before {
+    content: "\39";
+  }
+  .lodur-icon-f-deselected:before {
+    content: "\21";
+  }
+  .lodur-icon-f-selected:before {
+    content: "\22";
+  }
+  .lodur-icon-successful:before {
+    content: "\23";
+  }
+  .lodur-icon-male:before {
+    content: "\24";
+  }
+  .lodur-icon-female:before {
+    content: "\25";
+  }
+  .lodur-icon-exclam:before {
+    content: "\26";
+  }
+  .lodur-icon-compass:before {
+    content: "\27";
+  }
+  .lodur-icon-location:before {
+    content: "\28";
+  }
+  .lodur-icon-search-performance:before {
+    content: "\29";
+  }
+  .lodur-icon-administrator:before {
+    content: "\2a";
+  }
+  .lodur-icon-kommandant:before {
+    content: "\2b";
+  }
+  .lodur-icon-central:before {
+    content: "\2c";
+  }
+  .lodur-icon-payment:before {
+    content: "\2d";
+  }
+  .lodur-icon-attachment:before {
+    content: "\2e";
+  }
+  .lodur-icon-expand:before {
+    content: "\2f";
+  }
+  .lodur-icon-smiley-happy:before {
+    content: "\3a";
+  }
+  .lodur-icon-smiley-normal:before {
+    content: "\3b";
+  }
+  .lodur-icon-smiley-sad:before {
+    content: "\3c";
+  }
+  .lodur-icon-download:before {
+    content: "\3d";
+  }
+  .lodur-icon-upload:before {
+    content: "\3e";
+  }
+  .lodur-icon-statistics:before {
+    content: "\3f";
+  }
+  .lodur-icon-adressbook:before {
+    content: "\40";
+  }
+  .lodur-icon-axe-big:before {
+    content: "\5b";
+  }
+  .lodur-icon-dta:before {
+    content: "\5d";
+  }
+  .lodur-icon-master-copy:before {
+    content: "\5e";
+  }
+  .lodur-icon-alarm-ringing:before {
+    content: "\5f";
+  }
+  .lodur-icon-partly-cloudy:before {
+    content: "\60";
+  }
+  .lodur-icon-subscribe:before {
+    content: "\7c";
+  }
+  .lodur-icon-ics:before {
+    content: "\7d";
+  }
+  .lodur-icon-csv:before {
+    content: "\7e";
+  }
+  .lodur-icon-weather-partly-cloudy-day-icon:before {
+    content: "\5c";
+  }
+  .lodur-icon-bed:before {
+    content: "\e000";
+  }
+  .lodur-icon-save:before {
+    content: "\e001";
+  }
+  .lodur-icon-locked-form:before {
+    content: "\7b";
+  }
+  .lodur-icon-inactive:before {
+    content: "\e002";
+  }
+  .lodur-icon-marker-a:before {
+    content: "\e003";
+  }
+  .lodur-icon-marker-b:before {
+    content: "\e004";
+  }
+  .lodur-icon-marker-c:before {
+    content: "\e005";
+  }
+  .lodur-icon-marker-d:before {
+    content: "\e006";
+  }
+  .lodur-icon-army:before {
+    content: "\e007";
+  }
+  .lodur-icon-workplace:before {
+    content: "\e008";
+  }
+  .lodur-icon-boat:before {
+    content: "\e009";
+  }
+  .lodur-icon-driver-license:before {
+    content: "\e00b";
+  }
+  .lodur-icon-bank:before {
+    content: "\e00c";
+  }
+  .lodur-icon-group:before {
+    content: "\e00d";
+  }
+  .lodur-icon-zug:before {
+    content: "\e00f";
+  }
+  .lodur-icon-funktion:before {
+    content: "\e00e";
+  }
+  .lodur-icon-terminart:before {
+    content: "\e010";
+  }
+  .lodur-icon-medal:before {
+    content: "\e011";
+  }
+  .lodur-icon-rank:before {
+    content: "\e012";
+  }
+  .lodur-icon-absent:before {
+    content: "\e013";
+  }
+  .lodur-icon-roman-7:before {
+    content: "\e014";
+  }
+  .lodur-icon-equipment:before {
+    content: "\e015";
+  }
+  .lodur-icon-course:before {
+    content: "\e016";
+  }
+  .lodur-icon-my-location:before {
+    content: "\e017";
+  }
+  .lodur-icon-location-of-emergency:before {
+    content: "\e018";
+  }
+  .lodur-icon-location-of-fire-engine:before {
+    content: "\e019";
+  }
+  .lodur-icon-location-of-fire-fepot:before {
+    content: "\e01a";
+  }
+  .lodur-icon-forklift-icon-01:before {
+    content: "\e00a";
+  }
+  .lodur-icon-pdf:before {
+    content: "\e01b";
+  }
+  .lodur-icon-move-left:before {
+    content: "\e01c";
+  }
+  .lodur-icon-move-right:before {
+    content: "\e01d";
+  }
+  .lodur-icon-hourglass:before {
+    content: "\e01e";
+  }
+  .lodur-icon-event-sign-off:before {
+    content: "\e01f";
+  }
+  .lodur-icon-event-sign-off-undo:before {
+    content: "\e020";
+  }
+  .lodur-icon-mobile-siren:before {
+    content: "\e021";
+  }
+  .lodur-icon-cal-empty:before {
+    content: "\e022";
+  }
+  .lodur-icon-cal-check:before {
+    content: "\e023";
+  }
+  .lodur-icon-cal-cross:before {
+    content: "\e024";
+  }
+  .lodur-icon-xml:before {
+    content: "\e025";
+  }
+  .lodur-icon-taf:before {
+    content: "\e026";
+  }
+  .lodur-icon-emergency:before {
+    content: "\e027";
+  }
+  .lodur-icon-course-1:before {
+    content: "\e029";
+  }
+  .lodur-icon-general-activities:before {
+    content: "\e02b";
+  }
+  .lodur-icon-meeting:before {
+    content: "\e028";
+  }
+  .lodur-icon-practice:before {
+    content: "\e02d";
+  }
+  .lodur-icon-grant-permission:before {
+    content: "\e900";
+  }
+  .lodur-icon-transfer:before {
+    content: "\e901";
+  }
+  .lodur-icon-folder-closed:before {
+    content: "\e902";
+  }
+  .lodur-icon-folder-open:before {
+    content: "\e903";
+  }
+  .lodur-icon-folder-withfile:before {
+    content: "\e904";
+  }
+  .lodur-icon-time:before {
+    content: "\e905";
+  }
+  .lodur-icon-nav-usermanual:before {
+    content: "\e906";
+  }
+  .lodur-icon-nav-notes:before {
+    content: "\e907";
+  }
+  .lodur-icon-nav-setting:before {
+    content: "\e908";
+  }
+  .lodur-icon-nav-home:before {
+    content: "\e90b";
+  }
+  .lodur-icon-nav-logout:before {
+    content: "\e90c";
+  }
+  .lodur-icon-nav-upward:before {
+    content: "\e90d";
+  }
+  .lodur-icon-nav-support:before {
+    content: "\e90e";
+  }
+  .lodur-icon-nav-modulelist:before {
+    content: "\e90f";
+  }
+  .lodur-icon-nav-hotlinks:before {
+    content: "\e910";
+  }
+  .lodur-icon-nav-monitor:before {
+    content: "\e909";
+  }
+  .lodur-icon-lock:before {
+    content: "\e90a";
+  }
+  .lodur-icon-mobile-view:before {
+    content: "\e911";
+  }
+  .lodur-icon-hand:before {
+    content: "\e912";
+  }
+  .lodur-icon-eraser:before {
+    content: "\e913";
+  }
+  .lodur-icon-pentagon:before {
+    content: "\e914";
+  }
+  .lodur-icon-list-view:before {
+    content: "\e915";
+  }
+  .lodur-icon-column-view:before {
+    content: "\e916";
+  }
+  .lodur-icon-grid-view:before {
+    content: "\e917";
+  }
+  .lodur-icon-alarm-groups:before {
+    content: "\e918";
+  }
+  .lodur-icon-cart:before {
+    content: "\e919";
+  }
+  .lodur-icon-alarm-group2:before {
+    content: "\e91a";
+  }
+  .lodur-icon-pending:before {
+    content: "\e91b";
+  }
+  .lodur-icon-reject:before {
+    content: "\e91c";
+  }
+  .lodur-icon-unlock:before {
+    content: "\e91d";
+  }
+  .lodur-icon-location-small:before {
+    content: "\e91e";
+  }
+  .lodur-icon-arrow-circle-right:before {
+    content: "\e91f";
+  }
+  .lodur-icon-arrow-circle-left:before {
+    content: "\e920";
+  }
+  .lodur-icon-period-end:before {
+    content: "\e921";
+  }
+  .lodur-icon-change-course:before {
+    content: "\e922";
+  }
+  .lodur-icon-attendance-checklist:before {
+    content: "\e923";
+  }
+  .lodur-icon-exam-feedback:before {
+    content: "\e924";
+  }
+  .lodur-icon-checklist:before {
+    content: "\e925";
+  }
+  .lodur-icon-pencil:before {
+    content: "\e926";
+  }
+  .lodur-icon-pause:before {
+    content: "\e927";
+  }
+  .lodur-icon-home:before {
+    content: "\e928";
+  }
+  .lodur-icon-attendance:before {
+    content: "\e92a";
+  }  
+  
+  /********** 
+  
+  WRITTEN IN BEM
+  
+  Block = .block
+  Element = .block-element
+  Modifier = .block-element--modifier / .block--modifier
+  
+  **************************************************/
+  
+/* Lodur Mobile Form Elements Start **************************************************/
+
+.lodurMobile-form input[type=text], .lodurMobile-form input[type=date], .lodurMobile-form input[type=time], .lodurMobile-form select{
+    padding: 0.4rem 0.3rem;
+    border-radius: 0.25rem;
+    border: 1px solid #dadada;
+    background-color: #ffffff;
+    font-size: 0.875rem;
+    margin-top: 0.150rem;
+    width: 100%;
+    margin-bottom: 0.625rem;
+    height: 2.25rem;
+}
+
+.lodurMobile-form label{
+    font-size: 0.75rem;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+}
+
+.lodurMobile-form--datePicker, .lodurMobile-form--timePicker{
+    position: absolute;
+    right: 0.9375rem;
+    bottom: 1.25rem;
+}
+
+/* Lodur Mobile Form Elements End **************************************************/
+
+.lodur-scroller-menu {
+  overflow-x: scroll;
+  -ms-overflow-style: none;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: none;
+  
+}
+
+.lodur-scroller-menu::-webkit-scrollbar {
+  display: none;
+}
+
+.lodur-scroller-menu ul {
+  width: 890px;
+  padding: 10px 0 0 5px;
+  border-bottom: 1px solid #DFDFDF;
+}
+
+.lodur-scroller-menu ul li{
+  display: inline-block;
+  padding: 0 15px;
+}
+
+.lodur-scroller-menu ul li a{
+  text-decoration: none;
+  color: initial;
+}
+
+.lodur-scroller-menu ul li a:hover{
+  font-weight: bold;
+}
+
+.lodur-scroller-menu ul li.selected{
+  padding-bottom: 10px;
+  border-bottom: 1px solid #e42222;
+}
+
+.lodur-scroller-menu ul li.selected a{
+  font-weight: bold;
+}
+
+.dienstbüchlein--card{
+  padding: 0 0 10px;
+}
+
+.dienstbüchlein--card .dienstbüchlein--blocks{
+  background-color: #EEF3F9;
+  border-radius: 4px;
+}
